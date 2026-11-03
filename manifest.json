@@ -1,1 +1,74 @@
-{"name":"DISCOVER — See the world differently","short_name":"DISCOVER","description":"3D globe, visitor guides, airports, trip maps and a travel book for every country.","start_url":"./","scope":"./","display":"standalone","orientation":"portrait","background_color":"#080d16","theme_color":"#080d16","categories":["travel"],"icons":[{"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},{"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},{"src":"icons/maskable-192.png","sizes":"192x192","type":"image/png","purpose":"maskable"},{"src":"icons/maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}]}
+{
+ "name": "DISCOVER — See the world differently",
+ "short_name": "DISCOVER",
+ "description": "3D globe, visitor guides, airports, trip maps and a travel book for every country.",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#080d16",
+ "theme_color": "#080d16",
+ "categories": [
+  "travel"
+ ],
+ "icons": [
+  {
+   "src": "./icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "./icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "./maskable-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "maskable"
+  },
+  {
+   "src": "./maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ],
+ "id": "discover-travel-app",
+ "lang": "en",
+ "dir": "ltr",
+ "display_override": [
+  "standalone",
+  "minimal-ui"
+ ],
+ "prefer_related_applications": false,
+ "shortcuts": [
+  {
+   "name": "Explore the world",
+   "short_name": "Explore",
+   "url": "./#world",
+   "icons": [
+    {
+     "src": "./icon-192.png",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
+  },
+  {
+   "name": "Travel guide",
+   "short_name": "Guide",
+   "url": "./#guide",
+   "icons": [
+    {
+     "src": "./icon-192.png",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
+  }
+ ]
+}
